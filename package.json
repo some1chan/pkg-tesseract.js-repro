@@ -1,5 +1,5 @@
 {
-	"name": "pnpm-pkg-tesseract.js",
+	"name": "pkg-tesseract.js-repro",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
