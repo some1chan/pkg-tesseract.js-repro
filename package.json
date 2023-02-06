@@ -1,0 +1,20 @@
+{
+	"name": "pnpm-pkg-tesseract.js",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"bin": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"build": "pkg --debug -o ./dist/app -t node18-win-x64 package.json"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"tesseract.js": "^4.0.2"
+	},
+	"devDependencies": {
+		"pkg": "^5.8.0"
+	}
+}
